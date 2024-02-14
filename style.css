@@ -1,0 +1,153 @@
+body{
+    background-color: #0e1630;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #0e1630;
+    margin-top: 1rem;
+
+}
+
+nav .logo span{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 2.8rem;
+    margin-right: 10rem;
+    font-size: large;
+
+}
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #F57D1F;
+    text-decoration: underline;
+}
+
+/* hero section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10rem 0 10rem;
+    margin-bottom: 5rem;
+
+}
+
+.text h1 span{
+    color: #F57D1F;
+}
+
+.greeting{
+    color: #F57D1F;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 20px 0 25px 0;
+}
+
+
+.text p{
+    width: 32rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: Quicksand,sans-serif!important;
+}
+
+/* Project section */
+
+.project-section{
+    margin-top: 10rem;
+}
+.heading h3{
+    color: #F57D1F;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.heading p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    /* border: 2px solid red; */
+    background: #171f38;
+    padding: 20px 15px 20px;
+    border-radius: 10px;
+    min-height: 100%;
+    font-family: Quicksand,sans-serif!important;
+    position: relative;
+    margin: 20px;
+
+}
+
+.project-op img{
+    border-radius: 4px;
+}
+
+.languages{
+    background: #808dad68;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+}
+
+/* contact section */
+
+.contact-section{
+    padding: 100px 10rem 0 10rem;
+    margin-bottom: 5rem;
+}
+
+.contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+
+}
+
+.contact-list .contact{
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.contact-section .contact img{
+    border-radius: 50%;
+}
