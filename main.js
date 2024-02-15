@@ -7,6 +7,15 @@ homeLink.addEventListener("click", function(event){
     home.scrollIntoView({behavior:'smooth'});
 })
 
+// ------------About section--------
+let aboutLink = document.getElementById("about-link");
+let about = document.getElementById("about-section");
+
+aboutLink.addEventListener("click", function(event){
+    event.preventDefault();
+    about.scrollIntoView({behavior:'smooth'});
+})
+
 // ------------project section--------
 let projectLink = document.getElementById("project-link");
 let project = document.getElementById("project-section");

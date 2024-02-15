@@ -49,7 +49,7 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 100px 10rem 0 10rem;
-    margin-bottom: 5rem;
+    padding-top: 10rem;
 
 }
 
@@ -151,3 +151,41 @@ nav a:hover{
 .contact-section .contact img{
     border-radius: 50%;
 }
+
+/* About section */
+
+.about-section{
+    padding-top: 5rem;
+}
+.about-section .bio{
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: Quicksand,sans-serif!important;
+    padding: 0 10rem 0 10rem;
+    text-align: center;
+}
+
+.about-section .about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+
+.education .edu-list{
+    font-family: Quicksand,sans-serif!important;
+    padding: 10px 0 10px 0;
+    line-height: 12px;
+}
+
+.education .edu-list span, p{
+    font-weight: 500;
+    margin: 10px;
+}
+
+.skills ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
