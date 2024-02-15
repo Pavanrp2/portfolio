@@ -18,11 +18,25 @@ aboutLink.addEventListener("click", function(event){
 
 // ------------project section--------
 let projectLink = document.getElementById("project-link");
-let project = document.getElementById("project-section");
+let projectSection = document.getElementById("project-section");
 
 projectLink.addEventListener("click", function (event){
     event.preventDefault();
-    project.scrollIntoView({behavior: "smooth"});
+    projectSection.scrollIntoView({behavior: "smooth"});
+})
+
+let projects = document.querySelectorAll('.project');
+projects.forEach(function(e, index){
+    e.addEventListener('click', function(){
+        let gitHubLink = ['https://github.com/Pavanrp2/Grid-Components',
+                          'https://github.com/Pavanrp2/amazon-clone',
+                          'https://github.com/Pavanrp2/paytm-clone',
+                          'https://github.com/Pavanrp2/screen_mode',
+                          'https://github.com/Pavanrp2/Counter',
+                          'https://github.com/Pavanrp2/Registration_Form',
+                          'https://github.com/Pavanrp2/calculator_app'];
+        window.open(gitHubLink[index], '_blank');
+    })
 })
 
 
