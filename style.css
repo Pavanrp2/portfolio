@@ -78,6 +78,23 @@ nav a:hover{
     font-family: Quicksand,sans-serif!important;
 }
 
+.resume-btn button{
+    background-color: #F57D1F;
+    color: #EFECEC;
+    padding: 7px;
+    margin-top: 10px;
+    border: 2px solid #F57D1F;
+    border-radius:7px;
+    font-weight: bold;
+}
+
+.resume-btn button:hover{
+    background-color: #EFECEC;
+    border: 2px solid #F57D1F;
+    color: #F57D1F;
+    cursor: pointer;
+}
+
 /* Project section */
 
 .project-section{

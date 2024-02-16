@@ -28,14 +28,14 @@ projectLink.addEventListener("click", function (event){
 let projects = document.querySelectorAll('.project');
 projects.forEach(function(e, index){
     e.addEventListener('click', function(){
-        let gitHubLink = ['https://github.com/Pavanrp2/Grid-Components',
-                          'https://github.com/Pavanrp2/amazon-clone',
-                          'https://github.com/Pavanrp2/paytm-clone',
-                          'https://github.com/Pavanrp2/screen_mode',
-                          'https://github.com/Pavanrp2/Counter',
-                          'https://github.com/Pavanrp2/Registration_Form',
-                          'https://github.com/Pavanrp2/calculator_app'];
-        window.open(gitHubLink[index], '_blank');
+        let gitHubRepository = ['https://github.com/Pavanrp2/Grid-Components',
+                                'https://github.com/Pavanrp2/amazon-clone',
+                                'https://github.com/Pavanrp2/paytm-clone',
+                                'https://github.com/Pavanrp2/screen_mode',
+                                'https://github.com/Pavanrp2/Counter',
+                                'https://github.com/Pavanrp2/Registration_Form',
+                                'https://github.com/Pavanrp2/calculator_app'];
+        window.open(gitHubRepository[index], '_blank');
     })
 })
 
@@ -49,4 +49,9 @@ contactLink.addEventListener("click", function(event){
     contact.scrollIntoView({behavior:"smooth"});
 })
 
+let email = document.getElementById('email-contact');
+email.addEventListener('click', function(){
+    let emailAddress = "pavanrpatil2@gmail.com";
+    window.location.href = 'mailto:' + emailAddress;
+});
 
